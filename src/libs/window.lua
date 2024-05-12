@@ -118,7 +118,11 @@ local function createFrame(title)
                 :setBackground(colors.gray)
                 :setForeground(colors.white)
 
-    return Window:new{windowFrame = windowFrame, childFrame = childFrame, windowTitle = windowTitle}
+    return Window:new{
+        _windowFrame = windowFrame,
+        _childFrame = childFrame,
+        _windowTitle = windowTitle
+    }
 end
 
 
