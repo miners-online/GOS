@@ -32,3 +32,4 @@ function checkForUpdates(updateUrl)
     end
 end
 checkForUpdates("https://raw.githubusercontent.com/miners-online/GOS/main/version")
+shell.run("/gos/src/main.lua")

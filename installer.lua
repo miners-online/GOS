@@ -34,7 +34,7 @@ local preset = {
 
 	-- Function to run when the download completes
 	done = function()
-		shell.run("/gos/startup.lua")
+		shell.run("/gos/src/startup.lua")
 	end
 }
 
