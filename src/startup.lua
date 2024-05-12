@@ -1,4 +1,4 @@
-currentVersion = 2.0
+currentVersion = "2.0"
 local function downloadFiles(url, path)
     for i = 1, 3 do
         local response = http.get(url)
